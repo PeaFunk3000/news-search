@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="./assets/styles/style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"/>
+  <title>New York Times News Search</title>
+</head>
+
+<body>
+  <header class="container-fluid text-center text-white bg-dark p-2">
+    <i class="fas fa-newspaper"></i>
+    <h1>New York Times News Search</h1>
+  </header>
+
+
+    <section class="latestNews">
+        <form>
+            <div class="form-group">
+            <label for="search">Search Term</label>
+            <input type="email" class="form-control" id="searchTerm" placeholder="Type Something here">
+            </div>
+            <div class="form-group">
+            <label for="records_retrieve">Number of records to Retrieve</label>
+            <select class="form-control" id="recordsRet">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+            </select>
+            </div>
+
+            <div class="form-group">
+            <label for="startyear">Start Year (Optional)</label>
+            <textarea class="form-control" id="startYear"></textarea>
+            </div>
+
+            <div class="form-group">
+            <label for="endyear">End Year (Optional)</label>
+            <textarea class="form-control" id="endYear" ></textarea>
+            <button type="button" class="btn btn-primary" id="searchBtn">Search</button>
+            <button type="button" class="btn btn-danger">Clear</button>
+            </div>
+        </form>
+    <section>
+<hr>
+    
+<!-- Place for articles -->
+<section id="articles">
+    <h3> Articles </h3>
+    <article id = "results">
+        
+    </article> 
+</section>
+ 
+  <!-- Moment.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

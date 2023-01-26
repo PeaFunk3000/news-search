@@ -1,0 +1,40 @@
+:root
+{
+    --maincolor: black ;
+    --secondarycolor: #022083;
+    --shadowcolor: black;
+    --secondaryshadowcolor: #37B7ED;
+
+    --textcolor: white;
+    --secondarytextcolor: black;
+    --captionbackground: white;
+    --captiontextcolor: black;
+
+}
+
+*
+{
+    scroll-behavior: smooth;
+    font-family: Raleway ,'Mulish' ,'Open Sans' ,'Verdana' ,'Arial';
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+form
+{
+    margin-left: 15%;
+    margin-top: 10%;
+    margin-right: 10%;
+}
+
+.btn
+{
+    margin-top: 5%;
+}
+
+#articles
+{
+    margin-left:15%;
+    margin-top:2%;
+}
